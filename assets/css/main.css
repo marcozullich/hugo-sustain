@@ -1,10 +1,10 @@
 /* Main page with stikky-footer */
 html, body {
   height: 100%;
-  background-color: #fff;
+  background-color: #ffffff;
   font-family: 'Source Sans Pro', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
-  border-top: 3px solid #27a822;
+  border-top: 3px solid #025;
 }
 
 /* Wrapper for page content to push down footer */
@@ -31,7 +31,7 @@ html, body {
 .navbar .navbar-nav > li > a:focus,
 .navbar .navbar-text,
 .navbar-toggler {
-  color: #6b6b6b;
+  color: #025;
 }
 
 .navbar-nav > .active > a,
@@ -40,7 +40,7 @@ html, body {
 .navbar-nav > .open > a,
 .navbar-nav > .open > a:hover,
 .navbar-nav > .open > a:focus {
-  color: #6b6b6b;
+  color: #025;
   background-color: #fff;
 }
 
@@ -50,23 +50,23 @@ html, body {
 
 .navbar-collapse,
 .navbar-form {
-  border-color: #6b6b6b;
+  border-color: #025;
 }
 
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu > li > a {
-    color: #6b6b6b;
+    color: #025;
   }
 
   .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #6b6b6b;
+    color: #025;
   }
 
   .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #6b6b6b;
+    color: #025;
     background-color: #fff;
   }
 }
@@ -78,12 +78,12 @@ html, body {
 }
 
 .container a {
-  color: #27a822;
+  color: rgb(0, 58, 144);
   text-decoration: none;
 }
 
 .container a:hover {
-  color: #267723;
+  color: #025;
 }
 
 .container p img,
@@ -121,12 +121,12 @@ html, body {
 
 .panel h4 a,
 h5 a {
-  color: #27a822;
+  color: rgb(0, 58, 144);
 }
 
 .panel h4 a:hover,
 h5 a:hover {
-  color: #267723;
+  color: #025;
 }
 
 .social-links {
